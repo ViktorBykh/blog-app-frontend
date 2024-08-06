@@ -1,0 +1,47 @@
+{
+  "name": "blog-app-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ViktorBykh.github.io/blog-app-frontend",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^2.24.1",
+    "axios": "^1.7.3",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.7",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "react-router-dom": "^6.26.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
